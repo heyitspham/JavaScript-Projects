@@ -25,3 +25,7 @@ document.write("<br>")
 var addingResults = 3 + 4; //an expression of "3 + 4", where its result is then assigned to the variable addingResults.
 document.write(addingResults);
 document.write("<br>")
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+    }
