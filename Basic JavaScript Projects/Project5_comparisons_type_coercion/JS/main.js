@@ -25,7 +25,7 @@ function TenGreaterTwo() {
 }
 
 function TwoGreaterTen() {
-    document.getElementById("TwoGreaterTen").innerHTML = 2 > 10; //value comparison: False.
+    document.getElementById("TwoGreaterTen").innerHTML = 10 < 2; //value comparison: False.
 }
 
 function ConsoleLog() {
@@ -79,6 +79,14 @@ function NotOpTrue() {
 
 function NotOpFalse() {
     document.getElementById("NotOpFalse").innerHTML = !(10 > 20); //10 is NOT greater than 20: True.
+}
+
+function TypeOfOp() {
+    document.getElementById("TypeOfOp").innerHTML = typeof "Hello"; //TypeOf operator. outputs String.
+}
+
+function OrOp() {
+    document.getElementById("OrOp").innerHTML = 10 > 5 || 10 < 5; //10 > 5: True. 10 < 5: False. OR operator: True.
 }
 
 /*
