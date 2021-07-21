@@ -1,7 +1,7 @@
 function Ride_Function() {
     var Height, CanRide;
     Height = document.getElementById("Height").value; //sets number variable Height to the value set in the targeted input element.
-    CanRide = (Height < 18) ? "You are too short":"You are tall enough"; //sets string variable CanRide to either string value options depending on the value of Height entered.
+    CanRide = (Height < 52) ? "You are too short":"You are tall enough"; //sets string variable CanRide to either string value options depending on the value of Height entered.
     document.getElementById("Ride").innerHTML = CanRide + " to ride."; //prints the string values in CanRide concatenated with " to ride."
 }
 
