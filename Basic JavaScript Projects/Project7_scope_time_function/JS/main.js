@@ -1,6 +1,6 @@
 // ADDITION with GLOBAL VAR
+var X = 10;
 function global() {
-    var X = 10;
     function addX1() {
         return addX1result = 20 + X;
         ;
