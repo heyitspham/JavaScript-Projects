@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project7_scope_time_function</title>
+        <script src="./JS/main.js"></script>
+    </head>
+    <body>
+        
+        <h4>Addition with a GLOBAL VARIABLE</h4>
+        <p id="global" onclick="global()">Both expressions has access to X, which is global. X = 10. 20 + X = ? and X + 100 = ?</p>
+
+        <h4>Addition with a LOCAL VARIABLE with ERROR in CONSOLE LOG</h4>
+        <p id="local" onclick="local()">1st expression has access to Y locally. 2nd expression does not. Y = 10. 20 + Y = ? and Y + 100 = ?</p>
+
+        <h4>IF STATEMENT</h4>
+        <p id="IfStatement" onclick="IfStatement()">Click Here.</p>
+
+        <h4>own IF STATEMENT</h4>
+        <p id="ownIfStatement" onclick="ownIfStatement()">Is it Christmas yet?</p>
+
+        <h4>ELSE STATEMENT</h4>
+        <p>How old are you?</p>
+        <input type="number" id="age" value=""/>
+        <p id="howOldAreYou?"></p>
+        <button onclick="ageFunction()">SUBMIT</button>
+
+        <h4>ELSE IF STATEMENT</h4>
+        <p id="timeOfDay"></p>
+        <button onclick="timeFunction()">Click here to get the time.</button>
+
+    </body>
+</html>
